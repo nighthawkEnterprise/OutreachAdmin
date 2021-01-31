@@ -1,0 +1,416 @@
+.futuerComponentParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 150px;
+  width: 90%;
+}
+.futuerComponent1 {
+  width: 100%;
+  opacity: 0.11;
+  height: 150px;
+}
+.futuerComponent2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 100%;
+  height: 150px;
+
+  margin-top: -150px;
+}
+
+.futuerComponentChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  flex-direction: column;
+
+  text-align: center;
+  height: 120px;
+  width: 140px;
+  background: rgb(255, 171, 75);
+  background: rgb(255, 135, 135);
+
+  color: rgb(255, 255, 255);
+}
+
+.futuerComponent2 i {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.futuerComponent2 h2 {
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+.futuerComponent2 h4 {
+  font-size: 14px;
+}
+/* ---------------------------------------- */
+.BEsocialMediaPlatForms {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.BEsocialMedia1 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(0, 89, 161);
+  background: rgb(255, 135, 135);
+  /* background: rgb(255, 135, 135); */
+
+  width: 220px;
+
+  border-radius: 10px;
+  /* border: solid 3px rgb(255, 98, 98); */
+}
+.BEsocialMedia2 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(84, 178, 255);
+  background: rgb(255, 135, 135);
+  /* background: rgb(255, 135, 135); */
+
+  width: 220px;
+  /* margin: 100px; */
+  border-radius: 10px;
+  /* border: solid 3px rgb(255, 255, 255); */
+}
+.BEsocialMedia3 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+    10deg,
+    rgb(255, 209, 60) 10%,
+    rgb(255, 41, 126) 90%
+  );
+  background: rgb(255, 135, 135);
+  /* background: rgb(255, 135, 135); */
+  width: 220px;
+
+  border-radius: 10px;
+  /* border: solid 3px rgb(0, 0, 0); */
+}
+.BEsocialMedia4 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(0, 102, 219);
+  background: rgb(255, 135, 135);
+  /* background: rgb(255, 135, 135); */
+
+  width: 220px;
+  /* margin: 100px; */
+  border-radius: 10px;
+  /* border: solid 3px rgb(255, 98, 98); */
+}
+
+.facebookLogo {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+}
+.facebookLogo i {
+  color: white;
+  font-size: 30px;
+}
+.linkInLogo {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+}
+.linkInLogo i {
+  color: white;
+  font-size: 30px;
+}
+.tweeterLogo {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+}
+.tweeterLogo i {
+  color: white;
+  font-size: 30px;
+}
+
+.googleLogo {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.googleLogo a i {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.BEsocialMedia a:hover {
+  color: rgb(66, 66, 66);
+}
+.BEsocialMediaPlatForms i:hover {
+  color: #c9c9c9;
+}
+
+.followers {
+  /* border: rgb(182, 182, 182) solid 1px; */
+
+  height: 30%;
+  width: 100%;
+}
+.followers {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.friends {
+  font-size: 14px;
+}
+.SMcontacts {
+  font-size: 14px;
+}
+.midLine {
+  font-size: 14px;
+  color: white;
+}
+/* ---------------------------------- */
+
+.backlogsParent {
+  width: 90%;
+}
+.backlogs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /* border: solid rgb(168, 1, 160) 10px; */
+  width: 100%;
+  height: 200px;
+
+  margin-top: -200px;
+  padding: 10px 0 0px 0;
+}
+.backlogs h4 {
+  border: solid 3px rgb(106, 183, 255);
+  border-radius: 10px;
+  display: inline;
+  padding: 5px;
+  font-size: 22px;
+  /* margin-left: 15px; */
+}
+.backlogsBlur {
+  background: rgb(255, 245, 245);
+  background: rgb(255, 245, 245);
+  /* background: rgb(233, 233, 233); */
+  width: 100%;
+
+  height: 200px;
+
+  /* border: solid red 1px; */
+}
+
+.backlogs h2 {
+  text-align: left;
+
+  color: rgb(0, 60, 189);
+  padding: 20px 0 0 30px;
+  width: 100%;
+  z-index: 2;
+}
+
+.backlogsChild {
+  height: 100%;
+  width: 90%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px 0 30px 0;
+}
+
+.backlogsChild1,
+.backlogsChild2 {
+  height: 100%;
+  width: 100%;
+  /* border: solid red 1px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.backlogContent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 90px;
+  width: 140px;
+  text-decoration: none;
+
+  /* border: solid red 1px; */
+
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 0 8px;
+  z-index: 2;
+  color: rgb(214, 0, 0);
+  border: rgb(0, 0, 0) solid 3px;
+  line-height: 1.6;
+  font-weight: bold;
+}
+.backlogContent:hover {
+  color: rgb(255, 116, 116);
+  border: rgb(175, 175, 175) solid 3px;
+}
+/* --------------------------------------------------------------------------------------------------- */
+
+.chartParent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: rgb(255, 146, 146) 6px solid;
+
+  flex-direction: column;
+  width: 90%;
+  height: 340px;
+  /* padding: 50px 0; */
+  border-radius: 30px;
+  background: rgb(255, 242, 242);
+  background: rgb(255, 245, 245);
+}
+.chartsTitle {
+  color: rgb(255, 41, 41);
+  margin-bottom: 15px;
+}
+.chartsContents {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(255, 31, 31);
+
+  text-align: center;
+
+  width: 90%;
+}
+.chartsContents h4 {
+  /* border: solid 1px red; */
+  width: 160px;
+}
+
+.charts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  /* border: solid red 2px; */
+}
+
+.pieCharts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.chartsParent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* border: solid red 2px; */
+}
+.piecharts1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+  background-image: conic-gradient(
+    rgb(226, 0, 0) 0 75deg,
+    rgb(255, 242, 242) 0
+  );
+}
+
+.piecharts2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+  background-image: conic-gradient(
+    rgb(0, 114, 95) 0 235deg,
+    rgb(255, 242, 242) 0
+  );
+}
+.piecharts3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-image: conic-gradient(#9c9c9c 0 275deg, rgb(255, 242, 242) 0);
+}
+.piecharts4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-image: conic-gradient(#0065fc 0 115deg, rgb(255, 242, 242) 0);
+}
+
+.piechart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  background: rgb(49, 49, 49);
+  color: rgb(255, 86, 86);
+
+  font-size: 30px;
+}
+.percentage {
+  font-size: 60px;
+}
+.percentages {
+  margin-bottom: 40px;
+}

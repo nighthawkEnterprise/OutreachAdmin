@@ -7,25 +7,21 @@ import "./signin.css";
 function SigninRegister() {
   const [registrationForm, setRegistrationForm] = useState(false);
   const loginproperties = useSpring({
-    left: registrationForm ? -500 : 0,
-    // opacity: registrationForm ? 0 : 1
+    left: registrationForm ? -600 : 0,
+    // opacity: registrationForm ? 0 : 1,
   });
 
   const registerproperties = useSpring({
-    left: registrationForm ? 0 : 500,
-    // opacity: registrationForm ? 1 : 0
+    left: registrationForm ? 0 : 600,
+    // opacity: registrationForm ? 1 : 0,
   });
 
   const loginBtnProperties = useSpring({
-    borderBottom: registrationForm
-      ? "solid 2px #1059FF"
-      : "solid 0px transparent",
+    borderBottom: registrationForm ? "solid 0px red" : "solid 0px red",
   });
 
   const registerBtnProperties = useSpring({
-    borderBottom: registrationForm
-      ? "solid 2px #1059FF"
-      : "solid 0px transparent",
+    borderBottom: registrationForm ? "solid 0px red" : "solid 0px red",
   });
 
   function signupClicked() {

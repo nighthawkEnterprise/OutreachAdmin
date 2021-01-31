@@ -98,7 +98,7 @@ function contactPage() {
           Our business hours are Mon. - Fri. 8am - 5pm.
         </p>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

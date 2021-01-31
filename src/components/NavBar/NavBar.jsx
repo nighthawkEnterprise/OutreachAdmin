@@ -41,6 +41,9 @@ function NavBar(props) {
                 <a href="/MeetUs">
                   <li>MeetUs</li>
                 </a>
+                {/* <a href="/BEinbox">
+                  <li>Inbox</li>
+                </a> */}
 
                 <a href="/Blog">
                   <li>Blog</li>
@@ -80,8 +83,8 @@ function NavBar(props) {
               </ul>
             </div>
 
-            <a className="navContent" href="/">
-              <span className="underLine">About</span>
+            <a className="navContent" href="/dashbaord">
+              <span className="underLine">BackendUI</span>
             </a>
           </div>
           <div className="searchForm">

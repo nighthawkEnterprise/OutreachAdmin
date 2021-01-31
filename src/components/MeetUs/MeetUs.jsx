@@ -15,7 +15,6 @@ function Meetteam() {
               <img src="../img/person.PNG" className="team_photo" />
             </div>
             <div className="team_bio_parent">
-
               <div className="empty"></div>
 
               <h2 className="team_name">Nithin</h2>
@@ -68,17 +67,17 @@ function Meetteam() {
           </div>
           <div className="team_contain">
             <div className="team_photo_parent">
-              <img src="../img/person.PNG" className="team_photo" />
+              <img src="../img/riyadh.PNG" className="team_photo" />
             </div>
             <div className="team_bio_parent">
               <div className="empty"></div>
-              <h2 className="team_name">Riyadh</h2>
+              <h2 className="team_name">Riyadh Alsalemi</h2>
               <div className="team_bio">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
-                  exercitationem. Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit. Nam, exercitationem. adipisicing elit. Nam,
-                  exercitationem. adipisicing
+                  A web developer at Outreach Design,also has a BS in Civil
+                  Engineering with five years of work experience in the
+                  construction industry, Soccer is his top hoppy, also he was
+                  member of a professional soccer club in the middleeast
                 </p>
               </div>
               <a href="" className="fa fa-linkedin"></a>
